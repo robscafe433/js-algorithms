@@ -11,3 +11,5 @@ challenge, do not use the built-in .repeat() method.
 function repeatStringNumTimes(str, num) {
   return str;
 }
+
+module.exports = repeatStringNumTimes;

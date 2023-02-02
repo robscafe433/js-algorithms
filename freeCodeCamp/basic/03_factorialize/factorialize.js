@@ -18,3 +18,5 @@ Only integers greater than or equal to zero will be supplied to the function.
 function factorialize(num) {
   return num;
 }
+
+module.exports = factorialize;

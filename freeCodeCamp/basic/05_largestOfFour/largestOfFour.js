@@ -13,3 +13,5 @@ each member with array syntax arr[i].
 function largestOfFour(arr) {
   return arr;
 }
+
+module.exports = largestOfFour;

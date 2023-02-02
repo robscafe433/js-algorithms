@@ -10,3 +10,5 @@ string length (second argument). Return the truncated string with a ... ending.
 function truncateString(str, num) {
   return str;
 }
+
+module.exports = truncateString;

@@ -11,3 +11,5 @@ Your response should be a number.
 function findLongestWordLength(str) {
   return str.length;
 }
+
+module.exports = findLongestWordLength;

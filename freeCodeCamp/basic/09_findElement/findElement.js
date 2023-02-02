@@ -13,3 +13,5 @@ function findElement(arr, func) {
   let num = 0;
   return num;
 }
+
+module.exports = findElement;

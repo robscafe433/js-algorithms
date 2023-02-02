@@ -14,3 +14,5 @@ like you to use one of the JavaScript substring methods instead.
 function confirmEnding(str, target) {
   return str;
 }
+
+module.exports = confirmEnding;
