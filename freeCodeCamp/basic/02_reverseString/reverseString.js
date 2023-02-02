@@ -11,7 +11,10 @@ Your result must be a string.
 */
 
 function reverseString(str) {
-  return str;
+  let split = str.split("");
+  let reverse = split.reverse();
+  let join = reverse.join("");
+  return join;
 }
 
 module.exports = reverseString;

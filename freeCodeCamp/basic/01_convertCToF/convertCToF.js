@@ -16,7 +16,7 @@ temperature to Fahrenheit.
 */
 
 function convertCToF(celsius) {
-  let fahrenheit;
+  let fahrenheit = (celsius * 9) / 5 + 32;
   return fahrenheit;
 }
 
