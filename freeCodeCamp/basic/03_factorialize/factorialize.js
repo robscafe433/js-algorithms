@@ -16,7 +16,11 @@ Only integers greater than or equal to zero will be supplied to the function.
 */
 
 function factorialize(num) {
-  return num;
+  let result = num;
+  while (num > 1) {
+    result *= num;
+  }
+  return result;
 }
 
 module.exports = factorialize;
