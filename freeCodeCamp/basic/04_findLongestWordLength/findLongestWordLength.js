@@ -8,6 +8,9 @@ Your response should be a number.
 
 */
 
+//This will be next challenge worked. Seems I will be using the .length function to 
+// determine sizes of words.
+
 function findLongestWordLength(str) {
   return str.length;
 }
